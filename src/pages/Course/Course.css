@@ -1,0 +1,56 @@
+/* Course.css */
+
+/* Card Styling */
+.course-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.course-card .card-body {
+    background: linear-gradient(135deg, #f6f6f6, #eaeaea);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card .card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.course-card .card-text {
+    color: #333;
+    flex-grow: 1;
+    margin-bottom: 0;
+    /* Ensure text area takes the available space and doesn't affect card height */
+}
+
+/* Section Header Styling */
+h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Flexbox Utilities for Consistent Card Height */
+.d-flex {
+    display: flex;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}

@@ -1,0 +1,38 @@
+.user-table-container {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .add-staff-button {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .add-staff-button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-staff-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .table thead th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

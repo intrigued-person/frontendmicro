@@ -1,0 +1,28 @@
+/* StudentDetails.css */
+.custom-table {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .custom-button:disabled:hover {
+    background-color: #6c757d;
+  }
+  .mt-lg-5{
+    margin-top: 110px !important;
+  }
+  

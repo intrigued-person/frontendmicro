@@ -1,0 +1,20 @@
+
+.navbar-brand img {
+  height: 40px; /* Adjust logo height */
+}
+
+.navbar-text {
+  font-size: 20px; /* Adjust welcome text size */
+}
+
+.nav-link {
+  font-size: 16px; /* Adjust link text size */
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Change color on hover */
+}

@@ -1,0 +1,86 @@
+.header {
+  background: linear-gradient(to right, #d1cdcc, #976f60);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 60px 0;
+}
+
+.main-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content ul p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer .social-icons {
+  margin-top: 20px;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+  color: #FFD700;
+}

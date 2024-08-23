@@ -1,0 +1,11 @@
+
+.nav-link {
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Underline text on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  

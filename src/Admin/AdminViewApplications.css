@@ -1,0 +1,84 @@
+.admin-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .filter-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .filter-form .form-check {
+    margin-bottom: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .application-card {
+    width: 22rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .application-card .card-body {
+    padding: 15px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .status-label {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .status-label.confirm {
+    background-color: #28a745; /* Green for confirmed */
+  }
+  
+  .status-label.reject {
+    background-color: #dc3545; /* Red for rejected */
+  }
+  
+  .application-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .application-card .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .application-card .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .application-card .btn-info {
+    background-color: #17a2b8;
+    border: none;
+  }
+  
+  .application-card .btn-primary,
+  .application-card .btn-success,
+  .application-card .btn-danger,
+  .application-card .btn-info {
+    border-radius: 4px;
+  }
+  
